@@ -28,7 +28,7 @@ from sklearn.impute import KNNImputer
 # In[4]:
 
 
-filename = 'C:/Users/Asus/Documents/Anaconda3/fds/agri_dataset_2020.txt'
+filename = 'C:/agri_dataset_2020.txt'
 file = open(filename, 'rt')
 text = file.read()
 file.close()
@@ -319,7 +319,7 @@ print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(Y_test, Y_p
 # In[36]:
 
 
-un  = pd.read_csv('C:/Users/Asus/Documents/Anaconda3/fds/Universities.csv' )  
+un  = pd.read_csv('C:/Universities.csv' )  
 
 
 # In[37]:
